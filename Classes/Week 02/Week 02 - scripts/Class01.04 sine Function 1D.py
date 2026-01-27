@@ -27,7 +27,7 @@ print(listValues)
 # Print out the coordinates of each point
 for x in listValues:
 
-        y = math.sin(x)
+        y = 2.0 *  math.cos(x / 2.0)
         
         sphereId = rs.AddSphere( (x * xScale, y * yScale, 0), rSphere )
         #print(sphereId)

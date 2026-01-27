@@ -29,7 +29,7 @@ alphaValues = np.arange(0, 1.0, 1 / yCount) # 0 to 1 in 0.1 steps
 for theta in thetaValues:
     for alpha in alphaValues:
 
-        x = math.cos(theta)
+        x = 5.0 + math.cos(theta)
         y = math.sin(theta)
         z = alpha
 

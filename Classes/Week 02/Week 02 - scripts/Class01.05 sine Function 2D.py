@@ -21,7 +21,7 @@ yScale = 10
 zScale = 10
 rSphere = 5
 
-listValues = np.arange(0, 2 * math.pi, 2 * math.pi / xCount)
+listValues = np.arange(0, 2 * (2 * math.pi), 2 * math.pi / xCount)
 print(listValues)
 
 # Print out the coordinates of each point
