@@ -17,9 +17,16 @@ class Person:
         self.age = age  
     def __str__(self):
         #return ("Hi! my name is " + str(self.name) + ". I'm " + str(self.age) + " year's old")
-        return f"Hi! my name is {self.name}. I'm {self.age} year's old"
+        #return f"Hi! my name is {self.name}. I'm {self.age} year's old"
+        a =  ""
+        a += "Hi! my name is ", self.name, ". I'm" , self.age, " year's old"
+        return a
 
-people.append(Person("John", 36))
+john = Person("John", 36)
+people.append(john)
+
+#people.append(Person("John", 36))
+
 people.append(Person("Sally", 25))
 people.append(Person("Billy", 15))
 

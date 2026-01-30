@@ -37,8 +37,9 @@ class Teacher(Person):
         return f"Hi! my name is {self.name}. I teach {self.subject} and I'm {self.age} year's old"
 
 people.append(Person("John", 36))
-people.append(Teacher("Sally", 25, "Math" ))
 people.append(Student("Billy", 15))
+people.append(Teacher("Sally", 25, "Math" ))
+
 
 people[0].name = "Jonathan"
 
