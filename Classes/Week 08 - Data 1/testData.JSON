@@ -1,0 +1,27 @@
+[
+    {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964
+      },
+      {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1967
+      },
+      {
+        "brand": "BMW",
+        "model": "I5",
+        "year": 2022
+      },
+      {
+        "brand": "BMW",
+        "model": "I3",
+        "year": 2024
+      },
+      {
+        "brand": "Volkswagen",
+        "model": "Rabbit",
+        "year":  1967
+      }
+]
