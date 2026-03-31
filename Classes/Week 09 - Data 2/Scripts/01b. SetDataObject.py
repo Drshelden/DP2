@@ -10,6 +10,7 @@ import Rhino
 
 
 object = rs.GetObject(message=None, filter=0, preselect=True, select=True, subobjects=True)
-rs.SetUserData(object, "DRS", 5)
-value = rs.GetUserData(object, "DRS")
+
+
+value = rs.GetUserText(object, "DRS2")
 print(str(value))

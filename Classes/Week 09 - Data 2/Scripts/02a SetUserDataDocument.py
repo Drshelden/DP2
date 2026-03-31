@@ -9,6 +9,6 @@ import System.Collections.Generic
 import Rhino
 
 
-rs.SetDocumentData("DRS", 5)
-value = rs.GetDocumentData("DRS")
+rs.SetDocumentUserText("DRS", "5")
+value = rs.GetDocumentUserText("DRS")
 print(str(value))
